@@ -75,6 +75,7 @@ import rehypeHighlight from "rehype-highlight";
 import axios from 'axios'
 import './App.css'
 import Hero from './component/Hero'
+import Footer from './component/Footer'
 
 function App() {
   const [ count, setCount ] = useState(0)
@@ -126,6 +127,7 @@ function App() {
           >{review}</Markdown>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }
