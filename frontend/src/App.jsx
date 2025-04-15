@@ -74,6 +74,7 @@ import rehypeHighlight from "rehype-highlight";
 // import "highlight.js/styles/github-dark.css";
 import axios from 'axios'
 import './App.css'
+import Hero from './component/Hero'
 
 function App() {
   const [ count, setCount ] = useState(0)
@@ -94,6 +95,7 @@ function App() {
 
   return (
     <>
+   <Hero/>
       <main>
         <div className="left">
           <div className="code">
